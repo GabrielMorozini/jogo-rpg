@@ -1,0 +1,57 @@
+Jogo de combate por turno
+1x1
+3 tipos de personagem (habilidades, caracteristicas e etc distintos que influenciam diretamente no jogo)
+após selecionar começa o combate alternando o turno por personagens, e acabará quando um player ser derrotado
+limpeza de tela
+
+PARA TODOS OS PERSONAGENS SEM EXESSÃO 
+  -- Pts de vida(<=0 é derrotado) não pode ultrapassaro valor máximo inicial
+  -- Defesa (deve sempre reduzir o dano)
+  -- Mana (consome ao usar habilidade especial) começa um valor padrão e recupera um tanto por turno
+  -- Digitar um nome personalizado de player
+
+UMA FUNÇÃO POR TURNO:
+Atacar || Defender || habilidade especial
+
+TELA DE VITÓRIA
+ -- Apresentar o vencedor
+ -- Turnos q a partida durou
+ -- Pts de vida restantes do vencedor
+
+TELA DE SELEÇÃO
+ -- Design do personagem
+ -- Tipo de Personagem (nome, resumo das características)
+ -- Mini Lore
+
+TELA DE COMBATE
+ -- Mostrar de quem é a vez
+ -- Mostrar o nome e o tipo dos personagens
+ -- Mostrar Pts de vida com uma barra visual
+ -- Mostrar valor de Mana
+ -- Mostrar as ações possíveis numeradas
+ -- Apresentar a cada ação "Berserker atacou Mago causando 15 de dano! Agora o mago tem 45 HP"
+
+
+
+
+
+//Ideia de ataque especial
+IDEIA 1 -
+Berserker === Atordoamento de 1 turno 
+Arqueiro === Esquiva
+Mago === Recupera pts de vida
+
+IDEIA 2 -
+Berserker === Sangramento (dano de sangramento)
+Arqueiro === Envenenamento (dano de veneno)
+Mago === Bola de fogo (dano de incendio)
+
+IDEIA 3 -
+Berserker === Furia Berserker(Aumento de ataque e fica mais sensível durante 3 turnos)
+Arqueiro === Tiro predador (Chance de acerto reduzido, mas com crítico ao acertar)
+Mago === Explosão de energia (Ataque crítico, mas atordoa no próximo turno)
+*Recuperação de vida +3 pt por 2 turnos, mas atordoamento no 1 turno*
+
+//Verificar se pode
+1 => Pode usar dado de 1 a 20 para definir sucesso?
+2 => 
